@@ -12,7 +12,7 @@ class News extends Component {
   }
 
   componentDidMount() {
-    const url = `http://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=8e38dda43be6470bb74d3f16a96dafd3`;
+    const url = `http://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=<key from newsapi.org>`;
 
     fetch(url)
       .then((response) => {
