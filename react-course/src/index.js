@@ -7,11 +7,11 @@ import FavoritesContext from "./store/favorites-context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <FavoritesContext>
+  // <FavoritesContext>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </FavoritesContext>
+  // </FavoritesContext>
 );
 
 // If you want to start measuring performance in your app, pass a function
